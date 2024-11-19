@@ -164,7 +164,7 @@ export const items = [
     },
     {
         id: 3,
-        category: "PHỞ - BEEF NOODLE SOUP",
+        category: "PHỞ - BEEF NOODLE SOUP (extra sate sauce: $0.50)",
         lists: [
             {
                 foodId: "1",
@@ -322,8 +322,8 @@ export const items = [
             },
             {
                 foodId: "16D",
-                foodName: "Beef Stewed (Choice of noodle or Baguete)ư",
-                foodNameTranslated: "Bò Kho (Bánh mì hoặc mì",
+                foodName: "Beef Stewed (Choice of noodle or Baguete)",
+                foodNameTranslated: "Bò Kho (Bánh mì hoặc mì)",
                 foodPrice: "16.25"
             }
         ]
@@ -426,7 +426,7 @@ export const items = [
     },
     {
         id: 6,
-        category: "MÌ XÀO - STIR FRIED EGG NOODLE (Crispy egg noodle: extra $1.00)",
+        category: "MÌ XÀO - STIR FRIED EGG NOODLE (crispy egg noodle: extra $1.00)",
         lists: [
             {
                 foodId: "24",

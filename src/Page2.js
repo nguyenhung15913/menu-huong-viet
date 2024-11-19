@@ -33,8 +33,10 @@ function Page2() {
                             <p>{i.foodNameTranslated}</p>
                           </div>
                         </div>   
-                        <div className="item-right">
-                          <p>{i.foodPrice}</p>
+                        <div className="item-right flex">
+                          <p>{i.foodPrice?i.foodPrice:i.foodPriceM}</p>
+                          <p>{i.foodPriceL?i.foodPriceL: null}</p>
+                          
                         </div>                   
                         
                       </div>
