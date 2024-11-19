@@ -171,119 +171,136 @@ export const items = [
                 foodName: "Huong Viet's sate beef noodle soup (spicy)",
 
                 foodNameTranslated: "Phở Bò Sate",
-                foodPrice: "9.95"
+                foodPriceM: "14.25",
+                foodPriceL: "15.25"
             },
             {
                 foodId: "1A",
                 foodName: "Seafood sate noodle soup",
                 foodDescription: "One size only - Shrimp, Squid and Artificial Crab",
                 foodNameTranslated: "Phở Sate Đồ Biển",
-                foodPrice: "9.95"
+                foodPrice: "16.25"
             },
             {
                 foodId: "2",
                 foodName: "Chicken Noodle Soup (Chicken Breast)",
                 foodNameTranslated: "Phở Gà",
-                foodPrice: "9.95"
+                foodPriceM: "13.95",
+                foodPriceL: "14.95"
             },
             {
                 foodId: "2A",
                 foodName: "Sate Chicken Noodle Soup (Chicken Breast - Spicy)",
                 foodNameTranslated: "Phở Gà Sate",
-                foodPrice: "9.95"
+                foodPriceM: "14.25",
+                foodPriceL: "15.25"
             },
             {
                 foodId: "2B",
                 foodName: "Curry Chicken Noodle Soup (Chicken Breast)",
                 foodNameTranslated: "Phở Gà Cà Ri",
-                foodPrice: "9.95"
+                foodPrice: "15.25"
             },
             {
                 foodId: "3",
                 foodName: "Huong Viet's Special Noodle Soup",
                 foodDescription: "Rare beef, beef ball, tendon, flank and tripe",
                 foodNameTranslated: "Phở Đặc Biệt",
-                foodPrice: "9.95"
+                foodPriceM: "14.95",
+                foodPriceL: "15.95"
             },
             {
                 foodId: "4",
                 foodName: "Rare beef noodle soup",
                 foodNameTranslated: "Phở Tái",
-                foodPrice: "9.95"
+                foodPriceM: "13.95",
+                foodPriceL: "14.95"
             },
             {
                 foodId: "5",
                 foodName: "Rare beef and flank noodle soup",
                 foodNameTranslated: "Phở Tái Nạm",
-                foodPrice: "9.95"
+                foodPriceM: "13.95",
+                foodPriceL: "14.95"
             },
             {
                 foodId: "6",
                 foodName: "Rare beef and tripe noodle soup",
                 foodNameTranslated: "Phở Tái Sách",
-                foodPrice: "9.95"
+                foodPriceM: "13.95",
+                foodPriceL: "14.95"
             },
             {
                 foodId: "7",
                 foodName: "Rare beef and tendon noodle soup",
                 foodNameTranslated: "Phở Tái Gân",
-                foodPrice: "9.95"
+                foodPriceM: "13.95",
+                foodPriceL: "14.95"
             },
             {
                 foodId: "8",
                 foodName: "Well done flank noodle soup",
                 foodNameTranslated: "Phở Nạm",
-                foodPrice: "9.95"
+                foodPriceM: "13.95",
+                foodPriceL: "14.95"
             },
             {
                 foodId: "9",
                 foodName: "Rare beef and beef ball noodle soup",
                 foodNameTranslated: "Phở Tái Bò Viên",
-                foodPrice: "9.95"
+                foodPriceM: "13.95",
+                foodPriceL: "14.95"
             },
             {
                 foodId: "10",
                 foodName: "Rare beef , flank and tripe noodle soup",
                 foodNameTranslated: "Phở Tái Nạm Sách",
-                foodPrice: "9.95"
+                foodPriceM: "13.95",
+                foodPriceL: "14.95"
             },
             {
                 foodId: "11",
                 foodName: "Rare beef , flank, tendon and tripe noodle soup",
                 foodNameTranslated: "Phở Tái Nạm Gân Sách",
-                foodPrice: "9.95"
+                foodPriceM: "13.95",
+                foodPriceL: "14.95"
             },
             {
                 foodId: "12",
                 foodName: "Well done flank, tendon and tripe noodle soup",
                 foodNameTranslated: "Phở Nạm Gân Sách",
-                foodPrice: "9.95"
+                foodPriceM: "13.95",
+                foodPriceL: "14.95"
             },
             {
                 foodId: "13",
                 foodName: "Beef ball noodle soup",
                 foodNameTranslated: "Phở Bò Viên",
-                foodPrice: "9.95"
+                foodPriceM: "13.95",
+                foodPriceL: "14.95"
             },
             {
                 foodId: "14",
                 foodName: "Vegetables noodle soup",
                 foodDescription: "Beef Broth or Vegetarian Broth",
                 foodNameTranslated: "Phở Rau Củ",
-                foodPrice: "9.95"
+                foodPriceM: "13.95",
+                foodPriceL: "14.95"
             },
             {
                 foodId: "15",
                 foodName: "Hue Style spicy beef noodle soup with fine shrimp paste sauce",
                 foodDescription: "Flank, rare beef, pork roll, beef ball",
                 foodNameTranslated: "Bún Bò Huế",
-                foodPrice: "9.95"
+                foodPriceM: "14.95",
+                foodPriceL: "15.95"
             },
             {
                 foodId: "15A",
                 foodName: "Pork ball sate noodle soup",
                 foodNameTranslated: "Phở Heo Viên Sate",
-                foodPrice: "9.95"
+                foodPriceM: "13.95",
+                foodPriceL: "14.95"
             },
         ]
     },
@@ -295,19 +312,19 @@ export const items = [
                 foodId: "16A",
                 foodName: "Wonton soup (8 wontons)",
                 foodNameTranslated: "Hoành Thánh Soup",
-                foodPrice: "9.95"
+                foodPrice: "10.95"
             },
             {
                 foodId: "16C",
                 foodName: "Special Wor wonton soup with chicken breast, egg noodle, wontons and veggies",
                 foodNameTranslated: "Mì Hoành Thánh Đặc Biệt",
-                foodPrice: "9.95"
+                foodPrice: "16.25"
             },
             {
                 foodId: "16D",
                 foodName: "Beef Stewed (Choice of noodle or Baguete)ư",
                 foodNameTranslated: "Bò Kho (Bánh mì hoặc mì",
-                foodPrice: "9.95"
+                foodPrice: "16.25"
             }
         ]
     },
@@ -319,91 +336,91 @@ export const items = [
                 foodId: "B1",
                 foodName: "BBQ pork and spring rolls topped with veggies on rice vermicelli",
                 foodNameTranslated: "Bún Thịt Nướng Chả Giò",
-                foodPrice: "9.95"
+                foodPrice: "14.95"
             },
             {
                 foodId: "B2",
                 foodName: "Combo Three: BBQ pork, marinated pork patty and spring rolls topped with veggies on rice vermicelli",
                 foodNameTranslated: "Bún Thịt Nướng, Nem Nướng Chả Giò",
-                foodPrice: "9.95"
+                foodPrice: "15.75"
             },
             {
                 foodId: "B3",
                 foodName: "Lemongrass BBQ chicken and spring rolls topped with veggies on rice vermicelli",
                 foodNameTranslated: "Bún Gà Nướng Chả Giò",
-                foodPrice: "9.95"
+                foodPrice: "14.95"
             },
             {
                 foodId: "B4",
                 foodName: "Lemongrass shredded beef and spring rolls topped with veggies on rice vermicelli",
                 foodNameTranslated: "Bún Bò Xào Sả Chả Giò",
-                foodPrice: "9.95"
+                foodPrice: "14.95"
             },
             {
                 foodId: "B5",
                 foodName: "Special Combo Three: Lemongrass BBQ chicken, shredded beef and spring rolls topped with veggies on rice vermicelli",
                 foodNameTranslated: "Bún Thịt Nướng, Nem Nướng Chả Giò",
-                foodPrice: "9.95"
+                foodPrice: "15.95"
             },
             {
                 foodId: "B6",
                 foodName: "Combo Three: Shrimp paste patty, BBQ pork and spring rolls topped with veggies on rice vermicelli",
                 foodNameTranslated: "Bún Thịt Nướng, Nem Nướng Chả Giò",
-                foodPrice: "9.95"
+                foodPrice: "16.25"
             },
             {
                 foodId: "B7",
                 foodName: "Beef sate skewers and spring rolls topped with veggies on rice vermicelli",
                 foodNameTranslated: "Bún Thịt Nướng, Nem Nướng Chả Giò",
-                foodPrice: "9.95"
+                foodPrice: "15.95"
             },
             {
                 foodId: "B8",
                 foodName: "Super Combo Four: BBQ chicken, BBQ pork, charbroiled prawn skewers and spring rolls topped with veggies on rice vermicelli",
                 foodNameTranslated: "Bún Thập Cẩm",
-                foodPrice: "9.95"
+                foodPrice: "17.95"
             },
             {
                 foodId: "B10",
                 foodName: "Combo Three:BBQ pork, shredded pork and spring rolls topped with veggies on rice vermicelli",
                 foodNameTranslated: "Bún Bì, Thịt Nướng Chả Giò",
-                foodPrice: "9.95"
+                foodPrice: "15.75"
             },
             {
                 foodId: "B11",
                 foodName: "Combo Four: Marinated pork patty, BBQ pork, shredded pork and spring rolls topped with veggies on rice vermicelli",
                 foodNameTranslated: "Bún Bì, Thịt Nướng, Nem Nướng Chả Giò",
-                foodPrice: "9.95"
+                foodPrice: "16.25"
             },
             {
                 foodId: "B12",
                 foodName: "Deep fried spring rolls topped with veggies on rice vermicelli",
                 foodNameTranslated: "Bún Chả Giò",
-                foodPrice: "9.95"
+                foodPrice: "14.50"
             },
             {
                 foodId: "B14",
                 foodName: "Deep fried fish cake, prawn skewers and spring rolls topped with veggies on rice vermicelli",
                 foodNameTranslated: "Bún Chả Cá, Tôm Chả Giò",
-                foodPrice: "9.95"
+                foodPrice: "16.95"
             },
             {
                 foodId: "B15",
                 foodName: "Grilled beef wrapped in Wild Betel leaf and spring rolls topped with veggies on rice vermicelli",
                 foodNameTranslated: "Bún Bò Lá Lốt Chả Giò",
-                foodPrice: "9.95"
+                foodPrice: "15.95"
             },
             {
                 foodId: "B16",
                 foodName: "Beef Ribs and spring rolls topped with veggies on rice vermicelli",
                 foodNameTranslated: "Bún Sườn Bò Chả Giò",
-                foodPrice: "9.95"
+                foodPrice: "16.95"
             },
             {
                 foodId: "B23",
                 foodName: "Charbroiled prawns and spring rolls topped with veggies on rice vermicelli",
                 foodNameTranslated: "Bún Tôm Nướng Chả Giò",
-                foodPrice: "9.95"
+                foodPrice: "16.50"
             },
         ]
     },
@@ -415,25 +432,25 @@ export const items = [
                 foodId: "24",
                 foodName: "Stir fried veggies with TOFU with lemongrass sauce on egg noodles",
                 foodNameTranslated: "Mì Xào Sate TOFU chay",
-                foodPrice: "9.95"
+                foodPrice: "15.95"
             },
             {
                 foodId: "25",
                 foodName: "Stir fried CHICKEN breast with lemongrass sauce and veggies on egg noodles",
                 foodNameTranslated: "Mì Xào Sate Gà",
-                foodPrice: "9.95"
+                foodPrice: "16.25"
             },
             {
                 foodId: "26",
                 foodName: "Stir fried BEEF with lemongrass sauce and veggies on egg noodles",
                 foodNameTranslated: "Mì Xào Sate Bò",
-                foodPrice: "9.95"
+                foodPrice: "16.25"
             },
             {
                 foodId: "26A",
                 foodName: "Stir fried SEAFOOD with lemongrass sauce and veggies on egg noodles (shrimp, squid and artificial crab",
                 foodNameTranslated: "Mì Xào Sate Đồ Biển",
-                foodPrice: "9.95"
+                foodPrice: "17.25"
             },
         ]
     },
@@ -445,55 +462,55 @@ export const items = [
                 foodId: "C1",
                 foodName: "Stir fried curry CHICKEN BREAST with veggies on rice (mildly spicy)",
                 foodNameTranslated: "Cơm Gà Xào Cà Ri",
-                foodPrice: "9.95"
+                foodPrice: "16.25"
             },
             {
                 foodId: "C2",
                 foodName: "Stir fried curry BEEF with veggies on rice (mildly spicy)",
                 foodNameTranslated: "Cơm Bò Xào Cà Ri",
-                foodPrice: "9.95"
+                foodPrice: "16.25"
             },
             {
                 foodId: "C3",
                 foodName: "Stir fried curry SEAFOOD with veggies on rice (mildly spicy)",
                 foodNameTranslated: "Cơm Đồ Biển Xào Cà Ri",
-                foodPrice: "9.95"
+                foodPrice: "17.25"
             },
             {
                 foodId: "C27",
                 foodName: "Grilled BEEF lemongrass with veggies on steamed rice (mildly spicy)",
                 foodNameTranslated: "Cơm Bò Xào Sả Ớt",
-                foodPrice: "9.95"
+                foodPrice: "16.25"
             },
             {
                 foodId: "C28",
                 foodName: "Grilled BEEF lemongrass with veggies on steamed rice (mildly spicy)",
                 foodNameTranslated: "Cơm Bò Xào Sả Ớt",
-                foodPrice: "9.95"
+                foodPrice: "15.95"
             },
             {
                 foodId: "C29",
                 foodName: "Charbroiled BBQ pork chop, shredded pork and fried egg on steamed rice",
                 foodNameTranslated: "Cơm Sườn Bì Trứng",
-                foodPrice: "9.95"
+                foodPrice: "16.25"
             },
             {
                 foodId: "C30",
                 foodName: "Shrimp paste patty, meat pie and shredded pork on steamed rice",
                 foodNameTranslated: "Cơm Chạo Tôm Bì Trứng",
-                foodPrice: "9.95"
+                foodPrice: "16.95"
             },
             {
                 foodId: "C31",
                 foodName: "Fried fish cake, meat pie and shredded pork on steamed rice",
                 foodNameTranslated: "Cơm Chả Cá Bì Trứng",
-                foodPrice: "9.95"
+                foodPrice: "16.95"
             },
             {
                 foodId: "C32",
                 foodName: "Beef Ribs and fried egg on steamed rice",
                 foodNameTranslated: "Cơm Sườn Bò",
-                foodPrice: "9.95"
+                foodPrice: "16.95"
             },
             
         ]
@@ -506,38 +523,39 @@ export const items = [
                 foodId: "18A",
                 foodName: "Vegetarian salad rolls (3 rolls)",
                 foodNameTranslated: "Gỏi Cuốn Chay",
-                foodPrice: "9.95"
+                foodPrice: "8.25"
             },
             {
                 foodId: "17A",
                 foodName: "Vegetarian spring rolls (3 rolls)",
                 foodNameTranslated: "Chả Giò Chay",
-                foodPrice: "9.95"
+                foodPrice: "8.25"
             },
             {
                 foodId: "B13",
                 foodName: "Vegetarian deep spring rolls with veggies on rice noodle (3 rolls)",
                 foodNameTranslated: "Bún Chả Giò Chay",
-                foodPrice: "9.95"
+                foodPrice: "14.50"
             },
             {
                 foodId: "C4",
                 foodName: "Stir fried curry tofu with veggies on rice",
                 foodNameTranslated: "Cơm Chay Xào Cà Ri",
-                foodPrice: "9.95"
+                foodPrice: "16.25"
             },
             {
                 foodId: "24",
                 foodName: "Stir fried veggies tofu with lemongrass on egg noodle",
                 foodNameTranslated: "Mì Xào Sate Tofu Chay",
-                foodPrice: "9.95"
+                foodPrice: "15.95"
             },
             {
                 foodId: "14",
                 foodName: "Vegetables noodle soup",
                 foodDescription: "Beef Broth or Vegetarian Broth",
                 foodNameTranslated: "Phở Rau Củ",
-                foodPrice: "9.95"
+                foodPriceM: "13.95",
+                foodPriceL: "14.95"
             },
         ]
     },
