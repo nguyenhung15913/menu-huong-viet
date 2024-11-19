@@ -1,52 +1,25 @@
 import {items} from "./Items"
 import "./App.css"
 import { usePDF } from "react-to-pdf";
+import {BrowserRouter , Routes , Route} from 'react-router-dom'
+import Page1 from "./Page1";
+import Page2 from "./Page2";
+import Page4 from "./Page4";
+import Page3 from "./Page3";
 function App() {
-
-  const { toPDF, targetRef } = usePDF({filename: 'page.pdf'});
-
   return (
     <>
-    <div ref={targetRef}>
-    <div className="page">
-      <div className="container">
-        {items.map(item => {
-            if (item.id === 1 || item.id === 2) {
-              return <div>
-                <div className="item-title">
-                  <h1>{item.category}</h1>
-                </div>
-                <div className="item-left flex note">
-                  <p>{item.note?item.note:null}</p> 
-                </div>
-                 
-                    {item.lists.map(i => {
-                      return <div className="item-description flex">
-                        <div className="item-left flex">
-                          <div className="food-id">
-                            <p>{i.foodId}</p>
-                          </div>
-                
-                          <div>
-                            <p>{i.foodName}</p>
-                            <p>{i.foodDescription?i.foodDescription: null}</p>
-                            <p>{i.foodNameTranslated}</p>
-                          </div>
-                        </div>   
-                        <div className="item-right">
-                          <p>{i.foodPrice}</p>
-                        </div>                   
-                        
-                      </div>
-                    })}                 
-                </div>
-            }             
-          })}
-      </div>
-    </div>
-    </div>
-      
-    <button onClick={() => toPDF()}>To PDF</button>
+      <BrowserRouter>
+      <Routes>
+      <Route exact path='/' element={<Page1/>} />
+      <Route exact path='/page1' element={<Page1/>} />
+      <Route exact path='/page2' element={<Page2/>} />
+      <Route exact path='/page3' element={<Page3/>} />
+      <Route exact path='/page4' element={<Page4/>} />
+
+      </Routes>
+
+      </BrowserRouter>
     </>
     
   );
